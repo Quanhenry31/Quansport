@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.black-color {
+  color: black;
+}
+.blue-color {
+  color: #277bc4;
+}
+.hr-opa {
+  width: 88%;
+  opacity: 0.5;
+}
+.xam-color {
+  color: rgb(123, 112, 112);
+  font-weight: 500;
+}
+.black-color-li {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.xam-color:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+.red-color {
+  color: red;
+}
+.span-opacity {
+  margin-left: 6px;
+  font-weight: 100;
+  font-size: 25px;
+  color: #ccc;
+}
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#main {
+  height: 3330px;
+}
+.fa-magnifying-glass:before,
+.fa-search:before {
+  content: "\f002";
+  font-size: 20px;
+}
+.font-rowwdown {
+  font-size: 15px;
+}
+.menu-funs-ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 16px 23px 10px;
+  font-weight: bold;
+}
+
+.white-color {
+  color: white;
+}
+.decor {
+  text-decoration: none;
+}
+
+/* style2 */
+
+.mar_left {
+  margin-left: 52px;
+}
+/* color_thea */
+.color_thea {
+  color: palevioletred;
+}

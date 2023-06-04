@@ -1,0 +1,313 @@
+.header {
+  width: 100%;
+  height: 99.6px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.nav {
+  width: 100%;
+  height: 27.6px;
+  background-color: #011542;
+}
+.nav ul {
+  display: flex;
+  color: #ffffffcc;
+  list-style-type: none;
+  float: right;
+}
+.nav ul li {
+  padding: 5px 0;
+  margin-right: 6px;
+  font-size: 11.68px;
+}
+.nav ul li:last-child {
+  margin-right: 140px;
+}
+.nav ul li:hover {
+  color: white;
+}
+.meunu-logo {
+  position: absolute;
+  background-color: #fcfcfc;
+  width: 100%;
+  height: 72px;
+}
+.anhquanto {
+  width: 357px;
+  height: 100%;
+}
+img.logoquanto {
+  display: inline-block;
+  width: 208px;
+  height: 100%;
+  padding: 9px 0px 9px 19px;
+  margin-left: 135px;
+}
+.content {
+  background-color: black;
+  width: 100%;
+  height: 700px;
+}
+.menu-funs {
+  float: left;
+  display: inline-block;
+  position: relative;
+  color: red;
+  width: 1018px;
+  height: 36px;
+  margin: 18px 0px 0px 31%;
+}
+.logo-content {
+  width: 100%;
+  height: 900px;
+}
+.lopgia {
+  width: 100%;
+  height: 900px;
+}
+.logo-content {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.logo-com {
+  width: 590px;
+  height: 300px;
+  background-color: black;
+  opacity: 0.8;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 10%;
+  z-index: 100;
+}
+.logo-com-h1 {
+  padding-left: 16%;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  font-size: 40.32px;
+}
+.logo-com-h3 {
+  padding-left: 14%;
+  font-size: 32px;
+}
+.logo-content .logo-das {
+  width: 100%;
+  height: 100%;
+  filter: blur(0.8px);
+}
+p.white-color {
+  padding-top: 25px;
+  width: 95%;
+  padding-left: 7%;
+  font-size: large;
+}
+ul.menu-fun-content {
+  list-style-type: none;
+  z-index: 333;
+  display: none;
+  position: absolute;
+}
+.menu-funs-ul:hover .menu-fun-content {
+  display: block;
+}
+.menu-funs-ul:hover .black-color {
+  color: red;
+}
+.menu-fun-content {
+  background-color: white;
+  width: 340px;
+  height: 180px;
+  line-height: 34px;
+  border: 2px solid rgb(173 173 173);
+  top: 50px;
+  padding: 0 14px;
+}
+ul.menu-fun-content.Nike {
+  height: 400px;
+}
+ul.menu-fun-content.adidas {
+  height: 220px;
+}
+ul.menu-fun-content.Treem {
+  height: 134px;
+}
+ul.menu-fun-content.nhantao {
+  height: 226px;
+}
+ul.menu-fun-content.khac {
+  width: 88%;
+  height: 450px;
+  left: 6%;
+}
+li.xam-color {
+  margin: 4px 20px;
+}
+li.black-color-li {
+  margin: 4px 20px;
+}
+.ul-khac {
+  list-style-type: none;
+  display: inline-grid;
+}
+
+/* noi dung  */
+.footer1 {
+  width: 100%;
+  height: auto;
+}
+.footer2 {
+  width: 100%;
+  height: auto;
+}
+.footer3 {
+  margin-top: 0%;
+
+  width: 100%;
+  height: auto;
+}
+.div_star {
+  position: relative;
+  border: 1px solid #ccc;
+  height: 39px;
+  width: 212px;
+  border-radius: 5px;
+  margin: 50px 0px 9px 57px;
+  padding-left: 8px;
+  line-height: 35px;
+  font-weight: bolder;
+  font-size: 21px;
+}
+.khoi1 {
+  display: inline-block;
+  float: left;
+  background-color: #ff0303;
+  width: 1000px;
+  height: 2px;
+  margin-top: -8%;
+  margin-left: 100%;
+}
+.star1 {
+  display: inline-block;
+}
+.khoi1_a {
+  width: 118px;
+  font-size: 18px;
+  position: absolute;
+  top: 0%;
+  right: 50px;
+}
+.khoi1_a:hover {
+  color: red;
+}
+a.khoi1_b {
+  width: 118px;
+  font-size: 18px;
+  position: absolute;
+  top: 180.5%;
+  right: 50px;
+}
+a.khoi1_b:hover {
+  color: red;
+}
+a.khoi1_c {
+  width: 118px;
+  font-size: 18px;
+  position: absolute;
+  top: 245%;
+  right: 50px;
+}
+a.khoi1_c:hover {
+  color: red;
+}
+a.khoi1_d {
+  width: 118px;
+  font-size: 18px;
+  position: absolute;
+  top: 310.5%;
+  right: 50px;
+}
+a.khoi1_d:hover {
+  color: red;
+}
+
+/* hiệu ứng */
+.footer_content {
+  float: left;
+  width: 235px;
+  height: auto;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.footer_content_img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.image_content {
+  width: 100%;
+  height: 100%;
+}
+.footer_content_contra {
+  padding: 5px 6px;
+}
+/* conten_4 */
+.footer_content_4 {
+  float: left;
+  width: 250px;
+  height: auto;
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+.footer_content_img_4 {
+  width: 300px;
+  height: 200px;
+}
+.image_content_4 {
+  width: 100%;
+  height: 100%;
+}
+.arrow {
+  position: absolute;
+  font-size: 70px;
+  top: 24%;
+  right: 80px;
+  color: rgb(255, 246, 246);
+  opacity: 0.9;
+  cursor: pointer;
+}
+.arrow:hover {
+  color: red;
+}
+.list_conten_main {
+  margin: auto;
+  position: relative;
+  width: 93%;
+  overflow: hidden;
+}
+.list_content {
+  display: flex;
+  position: relative;
+  transform: translateX(0);
+  transition: all 1s ease-in-out;
+}
+.image_content:hover {
+  transform: scale(1.1);
+}
+.image_content {
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+}
+/* nghich */
+.footer1 {
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+.all {
+  width: 148px;
+  height: 30px;
+  position: absolute;
+  left: 580%;
+  top: 0%;
+}
